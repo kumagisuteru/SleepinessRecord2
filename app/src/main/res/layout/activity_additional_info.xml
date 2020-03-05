@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdditionalInfo">
+
+    <TextView
+        android:id="@+id/txt_sound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_add_sound"
+        app:layout_constraintTop_toBottomOf="@+id/spin_sleep"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_loud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/checkbox_loud"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_sound" />
+
+    <CheckBox
+        android:id="@+id/checkbox_low"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="@string/checkbox_low"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_high" />
+
+    <CheckBox
+        android:id="@+id/checkbox_high"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="@string/checkbox_high"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_loud" />
+
+    <TextView
+        android:id="@+id/txt_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_add_light"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_low"
+        tools:layout_editor_absoluteX="89dp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_glare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/checkbox_glare"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_light" />
+
+    <TextView
+        android:id="@+id/txt_others"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_add_others"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_glare"
+        tools:layout_editor_absoluteX="85dp" />
+
+    <EditText
+        android:id="@+id/edittext_others"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintTop_toBottomOf="@+id/txt_others"
+        android:autofillHints="自由に記述してください"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_decision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_decision"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-43dp" />
+
+    <TextView
+        android:id="@+id/txt_add_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_add_additional"
+        android:textSize="30sp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="134dp" />
+
+    <TextView
+        android:id="@+id/txt_add_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_add_action"
+        app:layout_constraintTop_toBottomOf="@+id/txt_add_title"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_add_action">
+
+
+        <RadioButton
+            android:id="@+id/radiobtn_sitting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobtn_sitting"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radiobtn_standing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobtn_standing"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radiobtn_lightexercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobtn_lightexercise"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radiobtn_middleexercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobtn_middleexercise"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radiobtn_hardexercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobtn_hardexercise"></RadioButton>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txt_add_sleep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_add_sleep"
+        app:layout_constraintTop_toBottomOf="@+id/RadioGroup"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Spinner
+        android:id="@+id/spin_sleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/sp_sleep"
+        android:spinnerMode="dialog"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_add_sleep" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/btn_help"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/RadioGroup"
+        app:layout_constraintTop_toTopOf="@+id/RadioGroup"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/btn_help"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/RadioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/btn_help"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/RadioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/btn_help"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/RadioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/btn_help"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/RadioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+
+</android.support.constraint.ConstraintLayout>

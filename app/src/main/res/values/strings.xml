@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">SleepinessRecord</string>
+    <string name="btn_record">記録</string>
+    <string name="dialog_title">記録確認</string>
+    <string name="txt_finTitle">記録完了</string>
+    <string name="dialog_msg">指定された数値で記録を行います。\nよろしいですか？</string>
+    <string name="dialog_positive">はい</string>
+    <string name="dialog_negative">いいえ</string>
+    <string name="dialog_ng_toast">記録をキャンセルしました</string>
+    <string name="dialog_delete">削除します。よろしいですか？</string>
+    <string name="dialog_deleted">削除しました。</string>
+    <string name="record_thxA">記録お疲れ様です。\n痛みが出ている時は無理せず休憩をしましょう。</string>
+    <string name="record_thxB">記録お疲れ様です。\n</string>
+    <string name="txt_fullness">痛み</string>
+    <string name="txt_bg_working">on</string>
+    <string name="txt_bg_not_working">off</string>
+    <string name="txt_ble_status">BLE: </string>
+    <string name="txt_bg_status">BG: </string>
+    <string name="btn_delete">削除</string>
+    <string name="hint">input</string>
+    <string name="btn_return">戻る</string>
+    <string name="btn_list">リスト</string>
+    <string name="btn_graph">グラフ</string>
+    <string name="btn_show">表示</string>
+    <string name="btn_summary">まとめ</string>
+    <string name="btn_env">環境情報</string>
+    <string name="btn_fitbit">生理情報</string>
+    <string name="btn_preenv">過去の環境情報</string>
+    <string name="btn_consult">医師に相談</string>
+    <string name="btn_help">help</string>
+    <string name="txt_category">眠気</string>
+    <string name="txt_year">年</string>
+    <string name="txt_month">月</string>
+    <string name="txt_date">日</string>
+    <string name="btn_weekly">週間</string>
+    <string name="btn_oneday">1日</string>
+    <string name="txt_add_sound">音について</string>
+    <string name="txt_add_light">光について</string>
+    <string name="txt_add_others">その他気になったこと</string>
+    <string name="txt_add_additional">追加情報</string>
+    <string name="txt_add_action">直前の行動</string>
+    <string name="txt_add_sleep">睡眠時間</string>
+    <string name="txt_title_env">現在の環境情報</string>
+    <string name="txt_temp">気温</string>
+    <string name="txt_hum">湿度</string>
+    <string name="txt_prs">気圧</string>
+    <string name="txt_cel">[℃]</string>
+    <string name="txt_per">[%]</string>
+    <string name="txt_hpa">[hPa]</string>
+    <string name="btn_decision">決定</string>
+    <string name="checkbox_loud">周りがうるさく感じた</string>
+    <string name="checkbox_high">周りの高い音が気になった</string>
+    <string name="checkbox_low">周りの低い音が気になった</string>
+    <string name="checkbox_glare">まぶしさを感じた</string>
+    <string name="radiobtn_sitting">非常に軽度の活動 例.座って過ごす，家事</string>
+    <string name="radiobtn_standing">軽度の活動 例.歩く，軽い運動</string>
+    <string name="radiobtn_lightexercise">中強度の活動 例.早歩き，子供と遊ぶ</string>
+    <string name="radiobtn_middleexercise">やや高強度の活動 例.スポーツ</string>
+    <string name="radiobtn_hardexercise">高強度の活動 例．水泳</string>
+    <string name="toast">データがありません</string>
+    <string name="img_trend">img_trend</string>
+    <string name="sw_pain">眠気の強さ</string>
+    <string name="sw_count">記録回数</string>
+    <string name="txt_week">週</string>
+    <string-array name="sp_week">
+        <item>1週目</item>
+        <item>2週目</item>
+        <item>3週目</item>
+        <item>4週目</item>
+        <item>5週目</item>
+    </string-array>
+
+    <string-array name="sp_sleep">
+        <item>3時間未満</item>
+        <item>3時間</item>
+        <item>3.5時間</item>
+        <item>4時間</item>
+        <item>4.5時間</item>
+        <item>5時間</item>
+        <item>5.5時間</item>
+        <item>6時間</item>
+        <item>6.5時間</item>
+        <item>7時間</item>
+        <item>7.5時間</item>
+        <item>8時間</item>
+        <item>8.5時間</item>
+        <item>9時間</item>
+        <item>9時間以上</item>
+    </string-array>
+
+
+    <string-array name="sp_year">
+        <item>2019</item>
+        <item>2020</item>
+    </string-array>
+    <string-array name="sp_month">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>n<item>8</item>n
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="sp_date">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string name="title_activity_show_ave_counts">ShowAveCounts</string>
+    <string name="trend_title">入力データの傾向</string>
+    <string name="trend_count_increse">眠気の発生回数は増加しています</string>
+    <string name="trend_count_stagnant">眠気の発生回数はあまり変化していません</string>
+    <string name="trend_count_decrese">眠気の発生回数は減少しています．</string>
+    <string name="trend_pain_increse">眠気の強さは増加しています</string>
+    <string name="trend_pain_stagnant">眠気の強さはあまり変化していません</string>
+    <string name="trend_pain_decrese">眠気の強さは減少しています</string>
+
+    <string name="ble_status_connect">connect</string>
+    <string name="ble_status_disconnect">disconnect</string>
+
+    <string name="dialog_title_help1">非常に軽度の活動</string>
+    <string name="dialog_message_help1">静かに座って過ごす，静かに立つ，立位での会話，料理の準備，洗濯，着替え，食事，見繕い，シャワー，ゆっくりした歩行，皿洗い</string>
+    <string name="dialog_title_help2">軽度の活動</string>
+    <string name="dialog_message_help2">ストレッチ，掃除(軽度)，水やり，ピアノ，子供と遊ぶ(軽度)，キャッチボール，普通歩行，釣り，掃除，階段を下りる</string>
+    <string name="dialog_title_help3">中強度の活動</string>
+    <string name="dialog_message_help3">早歩き，風呂掃除，自転車，レジャー，通勤，草むしり，子供と遊ぶ，バドミントン，ゴルフ</string>
+    <string name="dialog_title_help4">やや高強度の活動</string>
+    <string name="dialog_message_help4">家具の移動，野球，ウェイトトレーニング，バスケットボール，水泳(軽度)，エアロビクス</string>
+    <string name="dialog_title_help5">高強度の活動</string>
+    <string name="dialog_message_help5">階段を上がる，水泳，スキー，山登り</string>
+</resources>
